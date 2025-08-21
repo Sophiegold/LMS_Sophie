@@ -15,6 +15,7 @@ This project is a Learning Management System (LMS) built using Replit. It follow
 
 Here’s a screenshot of the LMS dashboard:
 ![LMS Preview](preview.jpg)
+![LMS Preview with course](preview1.jpg)
 
 ## Tech Stack
 - **Frontend**: HTML, CSS, JavaScript
