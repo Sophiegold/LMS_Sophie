@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(248, 50%, 98%);
+  --foreground: hsl(222, 84%, 12%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(222, 84%, 12%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(222, 84%, 12%);
+  --primary: hsl(217, 81%, 56%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(162, 87%, 20%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(210, 20%, 93%);
+  --muted-foreground: hsl(215, 14%, 39%);
+  --accent: hsl(258, 86%, 59%);
+  --accent-foreground: hsl(0, 0%, 100%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(214, 32%, 91%);
+  --input: hsl(214, 32%, 91%);
+  --ring: hsl(217, 81%, 56%);
+  --chart-1: hsl(217, 81%, 56%);
+  --chart-2: hsl(162, 87%, 20%);
+  --chart-3: hsl(258, 86%, 59%);
+  --chart-4: hsl(43, 89%, 56%);
+  --chart-5: hsl(27, 87%, 67%);
+  
+  /* Custom colors matching design */
+  --text-primary: hsl(222, 84%, 12%);
+  --text-secondary: hsl(215, 14%, 39%);
+  --blue-100: hsl(213, 100%, 95%);
+  --emerald-100: hsl(140, 60%, 95%);
+  --violet-100: hsl(260, 75%, 95%);
+  --amber-100: hsl(48, 100%, 92%);
+  --amber-600: hsl(32, 95%, 44%);
+  --blue-200: hsl(213, 100%, 87%);
+  --slate-50: hsl(210, 20%, 98%);
+  --slate-200: hsl(214, 32%, 91%);
+  
+  --font-sans: 'Inter', sans-serif;
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: hsl(222, 84%, 5%);
+  --foreground: hsl(210, 40%, 98%);
+  --card: hsl(222, 84%, 8%);
+  --card-foreground: hsl(210, 40%, 98%);
+  --popover: hsl(222, 84%, 8%);
+  --popover-foreground: hsl(210, 40%, 98%);
+  --primary: hsl(217, 81%, 56%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(162, 87%, 20%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(217, 32%, 17%);
+  --muted-foreground: hsl(215, 20%, 65%);
+  --accent: hsl(258, 86%, 59%);
+  --accent-foreground: hsl(0, 0%, 100%);
+  --destructive: hsl(0, 62%, 30%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(217, 32%, 17%);
+  --input: hsl(217, 32%, 17%);
+  --ring: hsl(217, 81%, 56%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer utilities {
+  .text-primary-custom {
+    color: var(--text-primary);
+  }
+  
+  .text-secondary-custom {
+    color: var(--text-secondary);
+  }
+  
+  .bg-blue-100-custom {
+    background-color: var(--blue-100);
+  }
+  
+  .bg-emerald-100-custom {
+    background-color: var(--emerald-100);
+  }
+  
+  .bg-violet-100-custom {
+    background-color: var(--violet-100);
+  }
+  
+  .bg-amber-100-custom {
+    background-color: var(--amber-100);
+  }
+  
+  .text-amber-600-custom {
+    color: var(--amber-600);
+  }
+  
+  .text-blue-200-custom {
+    color: var(--blue-200);
+  }
+  
+  .bg-slate-50-custom {
+    background-color: var(--slate-50);
+  }
+  
+  .bg-slate-200-custom {
+    background-color: var(--slate-200);
+  }
+}
