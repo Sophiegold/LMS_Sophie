@@ -4,11 +4,11 @@
 This project is a Learning Management System (LMS) built using Replit. It follows a server-client architecture and provides essential features for managing and tracking learning activities.
 
 ## Features
-- **User Login**: Secure login system for students and educators.
-- **Course Dashboard**: View assigned courses and track progress.
-- **Course Selection**: Browse and enroll in available courses.
-- **Progress Tracking**: Monitor completion status and learning milestones.
-- **Database Integration**: Stores user data, course information, and progress records.
+- **User Login**:  User authentication with Replit login/logout
+- **Course Dashboard**: Dashboard with course overview and stats
+- **Course Selection**: Browse and enroll in available courses, course detail pages with progress tracking
+- **Progress Tracking**: Monitor completion status and learning milestones
+- **Database Integration**: Stores user data, course information, and progress records
 
 
 ## Preview
@@ -20,7 +20,7 @@ Here’s a screenshot of the LMS dashboard:
 ## Tech Stack
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js or Python (depending on implementation)
-- **Database**: SQLite, JSON, or Replit DB
+- **Database**: Database integration with PostgreSQL
 - **Platform**: Developed and hosted on [Replit](https://replit.com)
 
 ## Getting Started
